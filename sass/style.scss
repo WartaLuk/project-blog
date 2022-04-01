@@ -3,6 +3,11 @@
 
 $color-light: rgb(251, 229, 186);
 $color-dark: #444;
+$color-size-1: rgb(32, 153, 153);
+$color-size-2: rgb(32, 84, 153);
+$color-size-3: rgb(153, 103, 32);
+$color-size-4: rgb(153, 48, 32);
+$color-size-5: rgb(153, 143, 32);
 
 $font-logo: 'Sacramento', cursive;
 $font-header: 'Oswald', sans-serif;
@@ -129,16 +134,31 @@ body {
 /*tag-size*/
 .tag-size-1 {
   font-size: 1rem;
+  a {
+  color: $color-size-1;
+  }
 }
 .tag-size-2 {
   font-size: 1.3rem;
+  a {
+  color: $color-size-2;
+  }
 }
 .tag-size-3 {
   font-size: 1.6rem;
+  a {
+  color: $color-size-3;
+  }
 }
 .tag-size-4 {
   font-size: 1.9rem;
+  a {
+  color: $color-size-4;
+  }
 }
 .tag-size-5 {
   font-size: 2.2rem;
+  a {
+  color: $color-size-5;
+  }
 }
