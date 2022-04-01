@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,600|Sacramento|Source+Sans+Pro:300&subset=latin-ext');
-
 /* Variables */
 
 $color-light: rgb(251, 229, 186);
@@ -118,6 +117,15 @@ body {
     margin: 0 10px 0 0;
   }
 }
+
+.list.tags {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
 /*tag-size*/
 .tag-size-1 {
   font-size: 1rem;
